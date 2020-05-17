@@ -54,13 +54,14 @@ Output format options:
     -z, --field-separator-zero set field separator to zero byte 
     -0, --record-separator-zero. set record separator to zero byte
     
+    
+    
 
--h, --host=HOSTNAME database server host or socket directory
-  144 | Appendix: Install, Hosting, and Command-Line Guides
--p, --port=PORT database server port (default: "5432")
--U, --username=USERNAME database user name
--w, --no-password never prompt for password
--W, --password force password prompt (should happen automatically)
+    -h, --host=HOSTNAME database server host or socket directory
+    -p, --port=PORT database server port (default: "5432")
+    -U, --username=USERNAME database user name
+    -w, --no-password never prompt for password
+    -W, --password force password prompt (should happen automatically)
 
 
 For more information, type "\?" (for internal commands) or "\help" (for SQL commands) from within psql, or consult the psql section in the PostgreSQL documentation.
